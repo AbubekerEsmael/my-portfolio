@@ -6,12 +6,6 @@ $(document).ready(function () {
     });
 });
 
-// var typed=new typed('.auto-type', {
-//     strings : ['Full Stack Web Developer','ux/ui desingner','Mobile app developer'],
-//     typeSpeed : 100,
-//     backSpeed : 100,
-//     looped : true,
-// })
 
 
 
