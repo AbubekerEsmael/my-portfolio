@@ -1,0 +1,288 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+ li a{
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: rgb(20, 234, 34);
+  color: red;
+  cursor:pointer; 
+  border-radius: 50px;
+  transition: .0s; 
+  background-color: #f9004d;
+  border: 2px solid transparent;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+/* .header {
+text-align: center;
+    top: 0;
+    f
+  }
+header ul li a {
+  color: aliceblue;
+}
+header .logo {
+  padding: 10px 50px 0;
+  height: 50px;
+} */
+/* marquee h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(243, 16, 16);
+  margin: center;
+  padding-left: 50px;
+  background-position: center;
+  margin-top: 10px;
+  font-size: 50px;
+} */
+.nav-bar-padding {
+  justify-content: space-between;
+  padding: 5px 100px 5px 0px;
+}
+#profile-section {
+  background: url('../images/f467de12-809d-4209-9ef1-54104f7c58f1_large.webp') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  padding: 50px;
+  border-radius: 15px;
+  color: white;
+}
+/* Profile Image */
+.profile-image img {
+  width: 250px;
+  height: 270px;
+  border-radius: 10%;
+  border: 5px solid white;
+}
+/* Profile Description */
+.profile-description {
+  max-width: 400px;
+}
+.profile-description h2  {
+  font-size: 28px;
+  text-align: center;
+  margin: bottom 5px;
+  justify-content:center;
+}
+.profile-description p {
+  line-height: 1.9;
+  font-size: medium;
+  margin: 0px 30px 10px;
+}
+/* Button Styling */
+button {
+  background: #16f36e;
+  color: black;
+  margin-left: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #14c65e;
+}
+
+/* Responsive Design */
+@media (max-width: 750px) {
+  .profile-container {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+  }
+}
+
+.my-text {
+  color: rgb(243, 14, 14);
+  text-align: center;
+  padding-top: 100px;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+.first-section{
+    display:flex;
+} 
+#about1{
+  /* display: inline; */
+  /* justify-content:  */
+}
+.image2{
+  background-size:auto;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-left: 32%;
+  width: 35%;
+}
+.ph1{
+  text-align: center;
+}
+span{
+  color: rgb(0, 30, 255);
+}
+@media (min-width: 1140px){
+  .image2{
+    background-size:auto;
+    padding-top: 50px;
+    padding-bottom: 0%;
+    margin-left: 10%;
+    width: 26%; 
+  }
+  .ph1{
+    text-align:center;
+    margin-left: 40%;
+   padding-top: 150px;
+    font-weight: bold;
+    font-size:large;
+  }
+#about1{
+  display: flex;
+}
+span{
+  color: #f9004d;
+}
+}
+/* skill*/
+.skill-main {
+  background-color: azure;
+}
+@media (min-width: 600px){
+  .html{
+    display: flex;
+}
+}
+.main .h1tag {
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .skill {
+    text-align: center;
+    color: rgb(4, 4, 4);
+  } 
+}
+@media (min-width: 600px) {
+  .skill {
+    color: rgb(4, 4, 4);
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px auto;
+  }
+}
+/*certificate*/
+@media (min-width: 600px){
+  .certificate{
+    text-align: center;
+    margin: center;
+    /* padding-left: 20px; */
+    background-position: center;
+    margin-top: 0px;
+    color: rgb(95, 230, 5);
+  }
+}
+h3{
+  text-align: center;
+color: crimson;
+font: 1em sans-serif;
+}
+.row-project-image{
+  text-align: center;
+}
+/*contact us page*/
+@media (max-width: 700px) {
+  .contact-us-main {
+    background-color: #ffffff;
+    margin: auto;
+    width: 60%;
+  }
+}
+@media (min-width: 700px) {
+  .contact-us-main {
+    background-color: #ffffff;
+  }
+.contact-us-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+  }
+}
+@media(max-width:995px){
+  ul li{
+    text-align: center;
+  }
+}
+.contact-us-container .right .address {
+  padding-left: 30px;
+}
+.contact-us-container .right .address-icon {
+  color: red;
+}
+.contact-us-container .right .address-text {
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+.contact-us-container .right .phone {
+  padding-left: 30px;
+}
+.contact-us-container .right .phone-icon {
+  color: rgb(9, 235, 77);
+}
+.contact-us-container .right .phone-number {
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+.contact-us-container .right .email {
+  padding-left: 30px;
+}
+.contact-us-container .right .email-icon {
+  font-size: 20px;
+  color: rgb(47, 47, 209);
+}
+.contact-us-container .right .email-link {
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+/*footer part*/
+footer {
+  background-color: #282828;
+}
+.footter ul {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.footter ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+.footter ul li a {
+  color: aliceblue;
+}
